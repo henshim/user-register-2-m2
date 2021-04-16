@@ -88,7 +88,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </fieldset>
 </form>
 <?php
-$loadData = loadRegistrantions('user.json');
+$loadData = loadRegistrations('user.json');
 ?>
 <h2>danh sách đã đăng ký</h2>
 <table>
